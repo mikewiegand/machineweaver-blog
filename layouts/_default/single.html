@@ -1,0 +1,9 @@
+{{ define "title" }}{{ .Title }} — {{ .Site.Title }}{{ end }}
+{{ define "main" }}
+  <article>
+    <h1>{{ .Title }}</h1>
+    <p class="post-meta">{{ .Date.Format "Jan 2, 2006" }} · {{ .ReadingTime }} min read</p>
+    {{ .Content }}
+    {{ partial "giscus.html" . }}
+  </article>
+{{ end }}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{{ block "title" . }}{{ .Site.Title }}{{ end }}</title>
+  <meta name="description" content="{{ .Site.Params.description }}"/>
+  {{ $styles := resources.Get "css/site.css" | resources.Minify | resources.Fingerprint }}
+  <link rel="stylesheet" href="{{ $styles.Permalink }}">
+  {{ partial "head-seo.html" . }}
+</head>
+<body>
+  <header>
+    <nav>
+      <strong><a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></strong>
+      <span>— {{ .Site.Params.tagline }}</span>
+      <span style="float:right"><a href="{{ "index.xml" | relURL }}">RSS</a></span>
+    </nav>
+  </header>
+  <main>
+    {{ block "main" . }}{{ end }}
+  </main>
+  <footer>
+    © {{ now.Format "2006" }} {{ .Site.Params.author }} · Built with Hugo · Comments by giscus
+  </footer>
+</body>
+</html>

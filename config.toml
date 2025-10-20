@@ -1,0 +1,23 @@
+baseURL = "https://<your-username>.github.io/machineweaver-blog/"
+languageCode = "en-us"
+title = "MachineWeaver"
+paginate = 10
+enableRobotsTXT = true
+
+[params]
+  tagline = "Notes from a Generative Engineer."
+  author = "Michael Wiegand"
+  description = "AI-driven code generation, OTA systems, PackWeave, LangGraph, and the Thor stack."
+  showReadingTime = true
+
+[markup]
+  [markup.highlight]
+    noClasses = false
+  [markup.goldmark.renderer]
+    unsafe = true
+
+[outputs]
+  home = ["HTML", "RSS"]
+
+[permalinks]
+  posts = "/posts/:year/:month/:day/:slug/"
