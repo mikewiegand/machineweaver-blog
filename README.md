@@ -98,7 +98,7 @@ This guarantees the conversation reflects exact compute outputs rather than an o
 Treat GPT as an extension of your development workflow:
 - Reintegrate the regenerated files into your local Git repo.  
 - Stage, diff, and commit so the history shows each AI-assisted revision.  
-- Push upstream once verified—your repo remains the ultimate audit trail.
+- Push upstream once verified—your repo remains the ultimate audit trail.nnnnn
 
 ---
 

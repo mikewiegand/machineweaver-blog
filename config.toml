@@ -1,4 +1,4 @@
-baseURL = "https://<your-username>.github.io/machineweaver-blog/"
+baseURL = "https://mikewiegand.github.io/machineweaver-blog/"
 languageCode = "en-us"
 title = "MachineWeaver"
 enableRobotsTXT = true
@@ -8,6 +8,10 @@ enableRobotsTXT = true
   author = "Michael Wiegand"
   description = "AI-driven code generation, OTA systems, PackWeave, LangGraph, and the Thor stack."
   showReadingTime = true
+  comments = false
+
+  [params.giscus]
+    enabled = false
 
 [markup]
   [markup.highlight]
