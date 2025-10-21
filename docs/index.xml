@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Home on MachineWeaver</title><link>https://mikewiegand.github.io/machineweaver-blog/</link><description>Recent content in Home on MachineWeaver</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Tue, 21 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://mikewiegand.github.io/machineweaver-blog/index.xml" rel="self" type="application/rss+xml"/><item><title>Gen AI Lessons Learned — Part 1</title><link>https://mikewiegand.github.io/machineweaver-blog/posts/2025/10/21/gen-ai-lessons-learned-part-1/</link><pubDate>Tue, 21 Oct 2025 00:00:00 +0000</pubDate><guid>https://mikewiegand.github.io/machineweaver-blog/posts/2025/10/21/gen-ai-lessons-learned-part-1/</guid><description>First batch of hard‑won truths from hands‑on GPT‑assisted development.</description></item><item><title>MachineWeaver: Notes from a Generative Engineer</title><link>https://mikewiegand.github.io/machineweaver-blog/posts/2025/10/20/machineweaver-notes-from-a-generative-engineer/</link><pubDate>Mon, 20 Oct 2025 00:00:00 +0000</pubDate><guid>https://mikewiegand.github.io/machineweaver-blog/posts/2025/10/20/machineweaver-notes-from-a-generative-engineer/</guid><description>Why this blog exists and what I’m exploring next.</description></item><item><title>About</title><link>https://mikewiegand.github.io/machineweaver-blog/pages/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://mikewiegand.github.io/machineweaver-blog/pages/about/</guid><description>&lt;p&gt;I&amp;rsquo;m Michael Wiegand. I build OTA systems (OTAJet), prompt-pack tooling (PackWeave), and run a local AI/LLM stack on NVIDIA Thor.
+This is my personal lab notebook for generative engineering.&lt;/p&gt;</description></item><item><title>Background &amp; Methodology</title><link>https://mikewiegand.github.io/machineweaver-blog/background/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://mikewiegand.github.io/machineweaver-blog/background/</guid><description>&lt;p&gt;This page explains the scope of my ongoing experiments and how results are produced.&lt;/p&gt;
+&lt;h2 id="what-this-project-is"&gt;What This Project Is&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;A public log of building with &lt;strong&gt;AI‑assisted engineering&lt;/strong&gt;: code generation, refactoring, and doc automation.&lt;/li&gt;
+&lt;li&gt;A record of my &lt;strong&gt;ESP32 OTA (OTAJet)&lt;/strong&gt; and &lt;strong&gt;PackWeave&lt;/strong&gt; work, plus a minimal Hugo blog used to publish findings.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="whats-coded-vs-not"&gt;What’s Coded vs. Not&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Coded:&lt;/strong&gt; working Python/FastAPI services, Streamlit admin UIs, MicroPython clients for ESP32, packaging scripts, and tangible artifacts (zips, markdown, diagrams).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Not (yet):&lt;/strong&gt; production‑grade cryptographic signing pipelines and some long‑haul observability pieces. When placeholders exist, the posts call them out explicitly.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="how-experiments-are-run"&gt;How Experiments Are Run&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Prepare artifacts&lt;/strong&gt; in a local Git repo (code, data, manifests).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Round‑trip with the assistant:&lt;/strong&gt; upload → regenerate → download.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Verify locally&lt;/strong&gt; (lint, run, or static checks) and &lt;strong&gt;commit&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Document&lt;/strong&gt; the outcome in a post with reproducible steps and downloadable files.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id="reproducibility-policy"&gt;Reproducibility Policy&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Every meaningful output is saved under version control.&lt;/li&gt;
+&lt;li&gt;Posts link to &lt;strong&gt;downloadable&lt;/strong&gt; artifacts (zips, scripts).&lt;/li&gt;
+&lt;li&gt;When environment or secrets are required, I include redacted examples and local‑only substitutes.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="how-to-read-results"&gt;How to Read Results&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Posts emphasize &lt;strong&gt;process and artifacts&lt;/strong&gt; over anecdotes.&lt;/li&gt;
+&lt;li&gt;When a conclusion depends on toolchain versions or OS quirks, I pin versions and note the environment.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Have questions? Open a Discussion on the repo and tag it with &lt;strong&gt;Blog Comments&lt;/strong&gt;.&lt;/p&gt;</description></item></channel></rss>

@@ -2,6 +2,7 @@ baseURL = "https://mikewiegand.github.io/machineweaver-blog/"
 languageCode = "en-us"
 title = "MachineWeaver"
 enableRobotsTXT = true
+publishDir = "docs"   # <-- tells Hugo to build into /docs for GitHub Pages
 
 [params]
   tagline = "Notes from a Generative Engineer."
