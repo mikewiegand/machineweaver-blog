@@ -11,5 +11,6 @@ summary: "Why this blog exists and what I’m exploring next."
 - End-to-end designs (ESP32 OTA, ring rollouts, signed manifests).
 - AI codegen workflows (prompt packs, evals, LangGraph state machines).
 - Tooling that actually ships (scripts, checklists, diagrams).
-
+- Much more coming soon...
+  
 **Comment below** — GitHub Discussions via giscus powers the thread for this post.
