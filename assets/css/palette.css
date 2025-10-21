@@ -1,0 +1,51 @@
+/* Subtle MachineWeaver palette */
+:root {
+  --mw-purple: #6d28d9;   /* deep purple (primary) */
+  --mw-purple-600: #7c3aed;
+  --mw-orange: #f97316;   /* accent orange */
+  --mw-orange-700: #ea580c;
+
+  --mw-link: var(--mw-purple);
+  --mw-link-hover: var(--mw-orange);
+}
+
+/* Links */
+a { color: var(--mw-link); text-underline-offset: 3px; }
+a:hover { color: var(--mw-link-hover); }
+
+/* Headings: subtle left bar + slight color tint */
+.post-title, .page-title, h1, h2 {
+  color: #111827; /* keep readable */
+}
+.post-title, .page-title {
+  border-left: 6px solid var(--mw-purple-600);
+  padding-left: 10px;
+}
+h2 {
+  border-left: 4px solid var(--mw-orange);
+  padding-left: 8px;
+}
+
+/* Inline code & code blocks */
+code, pre code {
+  border-radius: 6px;
+  border: 1px solid rgba(109,40,217,0.25);
+}
+pre {
+  box-shadow: 0 0 0 3px rgba(249,115,22,0.08) inset;
+}
+
+/* Buttons/chips (if theme has them) */
+.btn, .button, .post-tag {
+  border-color: var(--mw-purple-600) !important;
+}
+.btn:hover, .button:hover, .post-tag:hover {
+  background: var(--mw-orange-700) !important;
+  color: #fff !important;
+}
+
+/* Selection */
+::selection { background: rgba(109,40,217,0.25); }
+
+/* Top nav underline accent on hover */
+header a:hover { box-shadow: 0 2px 0 0 var(--mw-orange); }
