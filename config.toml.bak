@@ -1,6 +1,7 @@
 baseURL = "https://<your-username>.github.io/machineweaver-blog/"
 languageCode = "en-us"
 title = "MachineWeaver"
+paginate = 10
 enableRobotsTXT = true
 
 [params]
@@ -20,6 +21,3 @@ enableRobotsTXT = true
 
 [permalinks]
   posts = "/posts/:year/:month/:day/:slug/"
-
-[pagination]
-  pagerSize = 10
